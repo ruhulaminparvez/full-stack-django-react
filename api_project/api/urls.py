@@ -6,7 +6,7 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register('articles', ArticleViewSet, basename='articles')
-router.register('users', UserViewSet, basename='users')
+router.register('users', UserViewSet)
 
 urlpatterns = [
     # path('article', article_list, name='article_list'),
