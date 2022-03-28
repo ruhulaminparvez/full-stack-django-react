@@ -20,8 +20,8 @@ class Name extends Component {
     render() {
         return (
             <div className="container">
-                <h1 className="text-center alert alert-success text-white name">My name is {this.state.name}</h1>
-                <button className="btn btn-success" onClick={this.clicked} >Click Me</button>
+                <h1 className="text-center alert alert-primary text-white name">My name is {this.state.name}</h1>
+                <button className="btn btn-primary" onClick={this.clicked} >Click Me</button>
             </div>
         );
     }
