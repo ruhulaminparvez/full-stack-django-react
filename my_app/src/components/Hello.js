@@ -1,9 +1,14 @@
 import React from 'react';
 
 function Hello() {
+
+  function clickHandler() {
+    alert('You clicked function component!');
+  }
+
   return (
 
-        <h1>We are in the function components</h1>
+        <button className='btn btn-primary' onClick={clickHandler}>Click Me Inside Function</button>
   
   );
 }
