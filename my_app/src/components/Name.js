@@ -13,7 +13,7 @@ class Name extends Component {
 
     clicked = () => {
         this.setState({
-        name: 'Changed Text',
+        name:this.state.name === 'Ruhul Amin Parvez' ? 'Ruhul Amin' : 'Ruhul Amin Parvez',
         }); 
     }
 
